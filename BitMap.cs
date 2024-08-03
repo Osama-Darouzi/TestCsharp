@@ -17,6 +17,7 @@ namespace Test_C_
         public BitMap()
         {
             InitializeComponent();
+            base.Refresh();
             _RefreshTime(DateTime.Now);
         }
 
